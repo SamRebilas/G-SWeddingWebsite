@@ -1,0 +1,227 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+.hero-section {
+    background: url('images/IMG_0976-Edit.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the background stay in place */
+    width: 100%;
+    min-height: 95vh; /* Ensures the section fills the viewport */
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    margin: auto;
+    margin-top: 0px!important;
+    margin-bottom: 40px!important;
+    width: 97.25%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    background: rgb(0 0 0 / 20%);
+}
+
+nav ul {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    opacity: 1;
+    z-index: 5;
+}
+ul{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    opacity:1;
+    z-index: 5;
+}
+h1{
+    z-index: 5;
+    /* color: rgb(39, 126, 52); */
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-cta-sec{
+    margin: auto;
+    margin-top: 0px!important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+}
+.names{
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cta{
+    font-size: 20px;
+}
+.main-body-section-container{
+    /* margin-top: 400px; */
+}
+.sec-1{
+    max-width: 90vw;
+}
+/* Flex container around image and text */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-top: 400px; */
+}
+/* Styling for the image container */
+.image-cont {
+    max-width: 600px; /* Ensures the image container doesn't exceed 600px */
+    width: 100%; /* Makes it responsive */
+    height: auto; /* Maintains the aspect ratio */
+}
+.txt-cont{
+    padding: 20px;
+    border: solid 1px darkgreen;
+background-color: white;
+}
+/* Image inside the image container */
+.image-cont img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+   box-shadow: 2px 2px 6px 2px lightgray;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+/* Final CTA section */
+.final-cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px; /* You can adjust this based on the size of the image */
+}
+
+.final-cta img {
+    position: absolute; /* Positions the image behind the text */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    top: 0;
+    left: 0;
+}
+
+.fcta-text-sec {
+    position: relative; /* Makes the text layer on top of the image */
+    z-index: 10; /* Ensures it stays above the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fcta-text-sec p {
+    margin: 10px 0;
+}
+
+.fcta-text-sec button {
+    margin-top: 20px;
+}
+.sec-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.border-l, .border-r{
+    border-bottom: solid 1px darkgreen;
+    width: 500px;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer{
+    max-height: 300px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+button{
+    border: none;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/*FORM*/
+.rsvp-form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #2c3e50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a252f;
+}
